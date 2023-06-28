@@ -17,7 +17,7 @@ Put your dataset in `data` folder, and add dataset info in:
 + `code/tasks/test.py` - `dataset_mapping`
   + add the category num for your testing part of dataset.
 
-**Pay attention:** Your dataset is required to be in COCO-format; that is, the annotation must be a COCO json format. If you use VOC-format dataset, please switch it to COCO format using `voc_to_coco.py`.
+**Pay attention:** Your dataset is required to be in COCO-format; that is, the annotation must be a COCO json format. If you use VOC-format dataset, please switch it to COCO format using `voc_to_coco.py`. Also pay attention that image name in COCO json file must contain suffix (like .jpg), please add it if it is missed.
 
 ### Selective Search Proposal Files
 SS proposal files (.pkl) can be generated in many ways (we provide `selective_search_vertex.py` to generate one using opencv package), but ensure the proposal coordinates are the coordinates of the top-left and bottom-right vertices. If not, use `ss_pkl_change.py`.
