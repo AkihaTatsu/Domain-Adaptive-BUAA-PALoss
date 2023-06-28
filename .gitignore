@@ -1,0 +1,6 @@
+data/
+scripts/
+.vscode/
+__pycache__/
+snapshots/
+VOCdevkit/
