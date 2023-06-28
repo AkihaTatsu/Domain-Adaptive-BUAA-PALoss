@@ -37,8 +37,8 @@ python code/tasks/train.py [--args]
 Detailed info using `python code/tasks/train.py -h` or refer to `train.sh`.
 
 ## Testing
-Results of training are stored in 
+Results of training are stored in `snapshots/oicr_lambda_log_distillation/(TIME)/ckpt` folder. `bkp.pth` is the final result.
 ```python
-python code/tasks/train.py [--args]
+python code/tasks/test.py [--args]
 ```
-Detailed info using `python code/tasks/train.py -h` or refer to `train.sh`.
+Detailed info using `python code/tasks/test.py -h` or refer to `test.sh`.
